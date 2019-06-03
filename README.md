@@ -9,6 +9,10 @@ Run using:
 ```
 docker container run -d challenge:dns-proxy
 ```
+You can optionally run the image directly from docker hub:
+```
+docker container run -d ftzimmer/challenge:dns-proxy
+```
 Test using "dig" to your container IP, examples below:
 ```
 dig google.com.br @172.17.0.2
